@@ -1,0 +1,99 @@
+body {
+    background-image: url(https://images8.alphacoders.com/726/thumb-1920-726446.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the background covers the whole page */
+    background-attachment: fixed; /* Fix the background while scrolling */
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+.h1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: lightblue;
+    border: 1px white;
+    font-style: italic;
+    
+    
+    /* Add any other styles you may need */
+  }
+  .subhead {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Add any other styles you may need */
+  }
+
+img{
+    border: 2px solid black;
+    padding: 2x;
+    width: 100%;
+}
+.rowingpic{
+    position: absolute;
+    top: 32%;
+    transform: translateY(-50%);
+    right: 20%;
+    max-width: 60%; /* Adjust the max-width as needed */
+    max-height: 120vh; /* Adjust the max-height as needed */
+    /* Add any other styles you may need */
+  }  
+.centerme{
+    display: block;
+    margin: auto;
+}
+hw{
+    text-align: center;
+}
+ol{
+color: white;;
+}
+.common{
+    position: absolute;
+    
+    
+
+}
+.footer{
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: block;
+    text-align: center;
+    background-color: lightblue;
+    color: azure;
+    
+}
+
+.header{
+    top: 0px;
+
+
+}
+.mainbody{
+top: 100px;
+font-size: larger;
+
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    position: relative; /* Make sure the container is positioned relative for absolute positioning of child elements */
+}
+
+.video-container iframe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(12%, -50%);
+    width: 560px; /* Adjust the width as needed */
+    height: 315px; /* Adjust the height as needed */
+}
